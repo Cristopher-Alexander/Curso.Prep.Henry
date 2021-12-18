@@ -35,8 +35,8 @@ function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
-  array.forEach(function(elemento,indice){
-    console.log(cb(elemento));
+  array.forEach(function(el,indice){
+    console.log(cb(el));
   });
 }
 
